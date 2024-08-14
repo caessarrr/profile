@@ -135,7 +135,7 @@ if (projectCardsContainer) {
 
         card.innerHTML = `
             <h2 class="text-xl font-semibold mb-4">${project.title}</h2>
-            <img src="${project.thumbnail}" alt="${project.title}" class="w-full h-40 object-cover rounded mb-4">
+            <img src="${project.thumbnail}" alt="${project.title}" class="w-full object-cover rounded mb-4">
             <div class="mb-4">
                 <span class="text-sm line-through text-gray-400">Rp${project.originalPrice.toLocaleString()}</span>
                 <span class="text-sm text-green-400">${discount.toFixed(2)}% Off</span>
