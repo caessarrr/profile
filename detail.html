@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+
+    <!-- Header -->
+    <header class="text-center py-4 border-b border-white">
+        <h1 class="text-3xl font-bold">CAESSAR</h1>
+        <nav class="mt-4">
+            <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
+            <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
+        </nav>
+    </header>
+
+    <!-- Project Detail Layout -->
+    <div class="max-w-5xl mx-auto mt-8 p-4 grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <!-- Left Column: Title and Description -->
+        <div class="col-span-2">
+            <h2 id="project-title" class="text-2xl font-bold mb-4"></h2>
+            <p id="project-description" class="mb-4"></p>
+            <div id="project-details" class="grid grid-cols-2 gap-4">
+                <!-- Images will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Right Column: Thumbnail, Price, and Download -->
+        <div>
+            <div class="bg-gray-800 p-6 rounded-lg">
+                <img id="project-thumbnail" class="w-full mb-4 rounded">
+                <p id="project-price" class="font-semibold mb-4"></p>
+                <a id="download-link" href="#" download class="block py-2 px-4 bg-green-600 hover:bg-green-500 rounded text-center">Download Project</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
