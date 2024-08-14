@@ -23,18 +23,105 @@ const projects = [
     {
         id: 2,
         title: "Project B",
-        description: "Deskripsi singkat project B.",
+        description: "Deskripsi singkat project B. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
         thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
         images: [
-            "projectB-1.jpg",
-            "projectB-2.jpg"
+            "assets/img/project1/images/project1-a.png",
+            "assets/img/project1/images/project1-b.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
         ],
-        price: 250000, // Harga jual
-        originalPrice: 300000, // Harga awal
-        downloadUrl: "https://example.com/download/projectB.zip"
-    }
-];
+        price: 150000, // Harga jual
+        originalPrice: 200000, // Harga awal
+        downloadUrl: "https://example.com/download/projectA.zip"
+    },
+    {
+        id: 3,
+        title: "Project C",
+        description: "Deskripsi singkat project C. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
+        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
+        images: [
+            "assets/img/project1/images/project1-a.png",
+            "assets/img/project1/images/project1-b.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+        ],
+        price: 150000, // Harga jual
+        originalPrice: 200000, // Harga awal
+        downloadUrl: "https://example.com/download/projectA.zip"
+    },
+    {
+        id: 4,
+        title: "Project D",
+        description: "Deskripsi singkat project D. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
+        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
+        images: [
+            "assets/img/project1/images/project1-a.png",
+            "assets/img/project1/images/project1-b.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+        ],
+        price: 150000, // Harga jual
+        originalPrice: 200000, // Harga awal
+        downloadUrl: "https://example.com/download/projectA.zip"
+    },
+    {
+        id: 5,
+        title: "Project E",
+        description: "Deskripsi singkat project E. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
+        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
+        images: [
+            "assets/img/project1/images/project1-a.png",
+            "assets/img/project1/images/project1-b.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+        ],
+        price: 150000, // Harga jual
+        originalPrice: 200000, // Harga awal
+        downloadUrl: "https://example.com/download/projectA.zip"
+    },
+    {
+        id: 6,
+        title: "Project F",
+        description: "Deskripsi singkat project F. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
+        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
+        images: [
+            "assets/img/project1/images/project1-a.png",
+            "assets/img/project1/images/project1-b.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+        ],
+        price: 150000, // Harga jual
+        originalPrice: 200000, // Harga awal
+        downloadUrl: "https://example.com/download/projectA.zip"
+    },
 
+];
 
 // Menampilkan project cards di halaman index
 const projectCardsContainer = document.getElementById('project-cards');
@@ -51,7 +138,7 @@ if (projectCardsContainer) {
             <img src="${project.thumbnail}" alt="${project.title}" class="w-full h-40 object-cover rounded mb-4">
             <div class="mb-4">
                 <span class="text-sm line-through text-gray-400">Rp${project.originalPrice.toLocaleString()}</span>
-                <span class="text-xs py-1 px-2 bg-green-400/30 text-white rounded ml-2">${discount.toFixed(2)}% Off</span>
+                <span class="text-sm text-green-400">${discount.toFixed(2)}% Off</span>
                 <div class="text-xl font-semibold mt-2">Rp${project.price.toLocaleString()}</div>
             </div>
             <button class="mt-4 py-2 px-4 bg-white text-black w-full rounded" onclick="viewDetail(${project.id})">View Detail</button>
@@ -66,7 +153,6 @@ function viewDetail(id) {
     window.location.href = `detail.html?id=${id}`;
 }
 
-
 // Menampilkan detail project di halaman detail
 const urlParams = new URLSearchParams(window.location.search);
 const projectId = urlParams.get('id');
@@ -75,7 +161,7 @@ if (projectId) {
     const project = projects.find(p => p.id == projectId);
     if (project) {
         document.getElementById('project-title').textContent = project.title;
-        document.getElementById('project-description').textContent = project.description; 
+        document.getElementById('project-description').textContent = project.description;
 
         // Menampilkan harga diskon dan harga asli
         document.getElementById('discount-price').textContent = `Rp${project.price.toLocaleString()}`;
@@ -87,9 +173,10 @@ if (projectId) {
 
         // Menampilkan gambar-gambar detail
         const imagesContainer = document.getElementById('project-details');
+        imagesContainer.innerHTML = ''; // Clear existing images
         project.images.forEach(image => {
             const imgElement = document.createElement('img');
-            imgElement.src = `${image}`;
+            imgElement.src = image;
             imgElement.className = 'w-full rounded';
             imagesContainer.appendChild(imgElement);
         });
@@ -104,24 +191,61 @@ if (projectId) {
     }
 }
 
+// Menampilkan daftar proyek terkait di halaman detail
+const relatedProjectsContainer = document.getElementById('related-projects-list');
+
+if (relatedProjectsContainer) {
+    const currentProjectIndex = projects.findIndex(p => p.id == projectId);
+
+    if (currentProjectIndex !== -1) {
+        // Ambil 1 proyek sebelum dan 1 proyek setelah proyek saat ini
+        const startIndex = Math.max(0, currentProjectIndex - 1);
+        const endIndex = Math.min(projects.length, currentProjectIndex + 2); // Ambil 1 proyek setelahnya
+
+        // Dapatkan proyek terkait tanpa memasukkan proyek saat ini
+        const relatedProjects = projects.slice(startIndex, endIndex).filter(p => p.id != projectId);
+
+        if (relatedProjects.length > 0) {
+            relatedProjects.forEach(project => {
+                const projectElement = document.createElement('div');
+                projectElement.className = 'card border-2 border-zinc-800 text-white rounded-lg p-4';
+
+                // Menghitung diskon
+                const discount = ((project.originalPrice - project.price) / project.originalPrice) * 100;
+
+                projectElement.innerHTML = `
+                    <h3 class="text-lg font-semibold mb-2">${project.title}</h3>
+                    <img src="${project.thumbnail}" alt="${project.title}" class="w-full rounded mb-2">
+                    <div class="mb-2">
+                        <span class="text-sm line-through text-gray-400">Rp${project.originalPrice.toLocaleString()}</span>
+                        <span class="text-sm text-green-400">${discount.toFixed(2)}% Off</span>
+                        <div class="text-lg font-semibold mt-1">Rp${project.price.toLocaleString()}</div>
+                    </div>
+                    <button class="mt-4 py-2 px-4 bg-white text-black w-full rounded" onclick="viewDetail(${project.id})">View Detail</button>
+                `;
+
+                relatedProjectsContainer.appendChild(projectElement);
+            });
+        } else {
+            relatedProjectsContainer.innerHTML = '<p class="text-center">No related projects available.</p>';
+        }
+    }
+}
 
 
-// Duplikat logo sebanyak 100x
+
+// Duplikat logo sebanyak 70x
 document.addEventListener("DOMContentLoaded", () => {
-    // Ambil elemen dengan kelas 'logo-scroll'
     const logoScroll = document.querySelector('.logo-scroll');
     
-    // Jumlah duplikat yang diinginkan
-    const jumlahDuplikat = 70;
-    
-    // Loop untuk membuat elemen <h1> baru
-    for (let i = 0; i < jumlahDuplikat; i++) {
-        // Buat elemen <h1>
-        const h1 = document.createElement('h1');
-        h1.className = 'text-7xl mx-4 font-bold'; // Tambahkan kelas yang sesuai
-        h1.textContent = 'CAESSAR'; // Setel teks konten
-        
-        // Tambahkan <h1> ke dalam elemen logoScroll
-        logoScroll.appendChild(h1);
+    if (logoScroll) {
+        const jumlahDuplikat = 70;
+
+        for (let i = 0; i < jumlahDuplikat; i++) {
+            const h1 = document.createElement('h1');
+            h1.className = 'text-7xl mx-4 font-bold';
+            h1.textContent = 'CAESSAR';
+            logoScroll.appendChild(h1);
+        }
     }
 });

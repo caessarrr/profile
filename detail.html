@@ -53,26 +53,35 @@
 
         <!-- Right Column: Thumbnail, Price, and Download -->
         <div>
-            <div class="sticky border-2 border-zinc-800 p-6 rounded-lg" style="top: 100px;">
-                <h2 class="text-lg font-semibold mb-4">Dapatkan Source Code</h2>
-                <img id="project-thumbnail" class="w-full mb-4 rounded">
-                
-                <!-- Price Container -->
-                <div id="price-container" class="flex flex-col space-y-2 mb-4">
-                    <!-- Original Price -->
-                    <div class="flex items-center space-x-2">
-                        <span id="original-price" class="text-sm line-through text-gray-400"></span>
-                        <span id="discount" class="text-xs py-1 px-2 bg-green-400/30 text-white rounded"></span>
+            <div class="sticky" style="top: 100px; z-index: -10;">
+                <div class="border-2 border-zinc-800 p-6 rounded-lg">
+                    <h2 class="text-lg font-semibold mb-4">Dapatkan Source Code</h2>
+                    <img id="project-thumbnail" class="w-full mb-4 rounded">
+                    
+                    <!-- Price Container -->
+                    <div id="price-container" class="flex flex-col space-y-2 mb-4">
+                        <!-- Original Price -->
+                        <div class="flex items-center space-x-2">
+                            <span id="original-price" class="text-sm line-through text-gray-400"></span>
+                            <span id="discount" class="text-sm text-green-400"></span>
+                        </div>
+                        <!-- Discounted Price -->
+                        <span id="discount-price" class="text-xl font-semibold text-white"></span>
                     </div>
-                    <!-- Discounted Price -->
-                    <span id="discount-price" class="text-xl font-semibold text-white"></span>
+                    
+                    <a id="download-link" href="#" download class="py-2 px-4 bg-green-400 text-black rounded block text-center">Download Project</a>
                 </div>
-                
-                <a id="download-link" href="#" download class="block py-2 px-4 bg-white text-black rounded text-center">Download Project</a>
+
+                <!-- New Section: Related Projects -->
+                <div id="related-projects" class="mt-8">
+                    <h2 class="text-xl font-bold mb-4">Projects Lainnya</h2>
+                    <div id="related-projects-list" class="space-y-4">
+                        <!-- Related projects will be inserted here -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
