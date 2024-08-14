@@ -1,0 +1,26 @@
+/* CSS untuk kontainer scroll */
+.logo-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logo-scroll {
+    display: inline-flex; /* Ganti display dari inline-block ke inline-flex */
+    white-space: nowrap;
+    animation: scroll-left 70s linear infinite; /* Sesuaikan durasi untuk kecepatan scroll */
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.logo-scroll > h1 {
+    display: inline-block;
+    margin-right: 2rem; /* Sesuaikan jarak antar elemen */
+}

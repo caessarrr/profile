@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Detail</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="bg-black text-white">
 
+
     <!-- Header -->
-    <header class="text-center py-4 border-b border-white">
-        <h1 class="text-3xl font-bold">CAESSAR</h1>
-        <nav class="mt-4">
+    <header class="logo-container py-10">
+        <div class="logo-scroll">
+            <h1 class="text-7xl mx-4 font-bold">CAESSAR</h1>
+        </div>
+    </header>
+    
+    
+
+    <header class="sticky top-0 text-center border-b border-t border-zinc-800 bg-black">
+        <nav class="mt-4 mb-4 whitespace-nowrap overflow-x-hidden">
+            <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
+            <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
+            <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
+            <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
+            <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
+            <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
+            <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
+            <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
+            <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
+            <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
+            <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
+            <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
+            <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
+            <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
             <a href="index.html" class="mx-4 text-xl hover:text-gray-400">Showcase</a>
             <a href="about.html" class="mx-4 text-xl hover:text-gray-400">About me</a>
         </nav>
@@ -22,7 +45,7 @@
         <!-- Left Column: Title and Description -->
         <div class="col-span-2">
             <h2 id="project-title" class="text-2xl font-bold mb-4"></h2>
-            <p id="project-description" class="mb-4"></p>
+            <p id="project-description" class="mb-4 border-2 border-zinc-700 p-3 rounded"></p>
             <div id="project-details" class="grid grid-cols-2 gap-4">
                 <!-- Images will be inserted here -->
             </div>
@@ -30,10 +53,22 @@
 
         <!-- Right Column: Thumbnail, Price, and Download -->
         <div>
-            <div class="bg-gray-800 p-6 rounded-lg">
+            <div class="sticky border-2 border-zinc-800 p-6 rounded-lg" style="top: 100px;">
+                <h2 class="text-lg font-semibold mb-4">Dapatkan Source Code</h2>
                 <img id="project-thumbnail" class="w-full mb-4 rounded">
-                <p id="project-price" class="font-semibold mb-4"></p>
-                <a id="download-link" href="#" download class="block py-2 px-4 bg-green-600 hover:bg-green-500 rounded text-center">Download Project</a>
+                
+                <!-- Price Container -->
+                <div id="price-container" class="flex flex-col space-y-2 mb-4">
+                    <!-- Original Price -->
+                    <div class="flex items-center space-x-2">
+                        <span id="original-price" class="text-sm line-through text-gray-400"></span>
+                        <span id="discount" class="text-xs py-1 px-2 bg-green-400/30 text-white rounded"></span>
+                    </div>
+                    <!-- Discounted Price -->
+                    <span id="discount-price" class="text-xl font-semibold text-white"></span>
+                </div>
+                
+                <a id="download-link" href="#" download class="block py-2 px-4 bg-white text-black rounded text-center">Download Project</a>
             </div>
         </div>
     </div>

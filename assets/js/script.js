@@ -8,7 +8,13 @@ const projects = [
         images: [
             "assets/img/project1/images/project1-a.png",
             "assets/img/project1/images/project1-b.png",
-            "assets/img/project1/images/project1-c.png"
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
+            "assets/img/project1/images/project1-c.png",
         ],
         price: 150000, // Harga jual
         originalPrice: 200000, // Harga awal
@@ -18,7 +24,7 @@ const projects = [
         id: 2,
         title: "Project B",
         description: "Deskripsi singkat project B.",
-        thumbnail: "projectB-thumbnail.jpg",
+        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
         images: [
             "projectB-1.jpg",
             "projectB-2.jpg"
@@ -35,13 +41,20 @@ const projectCardsContainer = document.getElementById('project-cards');
 if (projectCardsContainer) {
     projects.forEach(project => {
         const card = document.createElement('div');
-        card.className = 'card bg-gray-800 text-white rounded-lg p-4 m-2 w-64 text-center';
+        card.className = 'card border-2 border-zinc-800 text-white rounded-lg p-4 m-2 w-74 text-center';
+
+        // Menghitung diskon
+        const discount = ((project.originalPrice - project.price) / project.originalPrice) * 100;
 
         card.innerHTML = `
-            <img src="${project.thumbnail}" alt="${project.title}" class="w-full h-40 object-cover rounded">
-            <h2 class="text-xl font-semibold mt-4">${project.title}</h2>
-            <p class="text-sm mt-2">${project.description}</p>
-            <button class="mt-4 py-2 px-4 bg-blue-600 hover:bg-blue-500 rounded" onclick="viewDetail(${project.id})">View Detail</button>
+            <h2 class="text-xl font-semibold mb-4">${project.title}</h2>
+            <img src="${project.thumbnail}" alt="${project.title}" class="w-full h-40 object-cover rounded mb-4">
+            <div class="mb-4">
+                <span class="text-sm line-through text-gray-400">Rp${project.originalPrice.toLocaleString()}</span>
+                <span class="text-xs py-1 px-2 bg-green-400/30 text-white rounded ml-2">${discount.toFixed(2)}% Off</span>
+                <div class="text-xl font-semibold mt-2">Rp${project.price.toLocaleString()}</div>
+            </div>
+            <button class="mt-4 py-2 px-4 bg-white text-black w-full rounded" onclick="viewDetail(${project.id})">View Detail</button>
         `;
         
         projectCardsContainer.appendChild(card);
@@ -64,9 +77,13 @@ if (projectId) {
         document.getElementById('project-title').textContent = project.title;
         document.getElementById('project-description').textContent = project.description; 
 
-        // Menampilkan harga dan diskon
+        // Menampilkan harga diskon dan harga asli
+        document.getElementById('discount-price').textContent = `Rp${project.price.toLocaleString()}`;
+        document.getElementById('original-price').textContent = `Rp${project.originalPrice.toLocaleString()}`;
+
+        // Menghitung diskon
         const discount = ((project.originalPrice - project.price) / project.originalPrice) * 100;
-        document.getElementById('project-price').textContent = `Price: Rp${project.price.toLocaleString()} (Original: Rp${project.originalPrice.toLocaleString()}) | Discount: ${discount.toFixed(2)}%`;
+        document.getElementById('discount').textContent = `${discount.toFixed(2)}%`;
 
         // Menampilkan gambar-gambar detail
         const imagesContainer = document.getElementById('project-details');
@@ -86,3 +103,25 @@ if (projectId) {
         downloadLink.href = project.downloadUrl;
     }
 }
+
+
+
+// Duplikat logo sebanyak 100x
+document.addEventListener("DOMContentLoaded", () => {
+    // Ambil elemen dengan kelas 'logo-scroll'
+    const logoScroll = document.querySelector('.logo-scroll');
+    
+    // Jumlah duplikat yang diinginkan
+    const jumlahDuplikat = 70;
+    
+    // Loop untuk membuat elemen <h1> baru
+    for (let i = 0; i < jumlahDuplikat; i++) {
+        // Buat elemen <h1>
+        const h1 = document.createElement('h1');
+        h1.className = 'text-7xl mx-4 font-bold'; // Tambahkan kelas yang sesuai
+        h1.textContent = 'CAESSAR'; // Setel teks konten
+        
+        // Tambahkan <h1> ke dalam elemen logoScroll
+        logoScroll.appendChild(h1);
+    }
+});
