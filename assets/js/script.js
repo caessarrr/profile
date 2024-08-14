@@ -234,6 +234,7 @@ if (relatedProjectsContainer) {
 
 
 
+
 // Duplikat logo sebanyak 70x
 document.addEventListener("DOMContentLoaded", () => {
     const logoScroll = document.querySelector('.logo-scroll');
