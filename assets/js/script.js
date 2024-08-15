@@ -128,7 +128,7 @@ const projectCardsContainer = document.getElementById('project-cards');
 if (projectCardsContainer) {
     projects.forEach(project => {
         const card = document.createElement('div');
-        card.className = 'card border-2 border-zinc-800 text-white rounded-lg p-4 m-2 w-full text-center';
+        card.className = 'card border-2 border-zinc-800 text-white rounded-lg p-4 m-2 w-80 text-center';
 
         // Menghitung diskon
         const discount = ((project.originalPrice - project.price) / project.originalPrice) * 100;
