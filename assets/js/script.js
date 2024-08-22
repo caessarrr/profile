@@ -2,125 +2,42 @@
 const projects = [
     {
         id: 1,
-        title: "Project A",
-        description: "Deskripsi singkat project A. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
-        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
+        title: "TO-DO List Dengan Kategori",
+        description: "Ini adalah aplikasi web yang dibuat dengan Laravel versi 10.* dan Tailwind CSS, project ini cocok untuk yang ingin melatih pengalaman membuat CRUD dan Autentikasi di Laravel karena di project ini sudah dilengkapi dengan fitur CRUD untuk mengelola TO-DO List dan Kategorinya, dan juga sudah ada fitur Login Multi-user yang membuat project ini bisa memiliki banyak user dan dapat masuk ke dashboardnya masing masing.",
+        thumbnail: "assets/img/laravel-todolist-dengan-kategori/thumbnail/laravel-todolist-dengan-kategori.png",
         images: [
-            "assets/img/project1/images/project1-a.png",
-            "assets/img/project1/images/project1-b.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
+            "assets/img/laravel-todolist-dengan-kategori/images/image-1.png",
+            "assets/img/laravel-todolist-dengan-kategori/images/image-2.png",
+            "assets/img/laravel-todolist-dengan-kategori/images/image-3.png",
+            "assets/img/laravel-todolist-dengan-kategori/images/image-4.png",
+            "assets/img/laravel-todolist-dengan-kategori/images/image-5.png",
+            "assets/img/laravel-todolist-dengan-kategori/images/image-6.png",
         ],
-        price: 150000, // Harga jual
-        originalPrice: 200000, // Harga awal
+        price: 29999, // Harga jual
+        originalPrice: 799999, // Harga awal
         downloadUrl: "https://example.com/download/projectA.zip"
     },
-    {
-        id: 2,
-        title: "Project B",
-        description: "Deskripsi singkat project B. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
-        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
-        images: [
-            "assets/img/project1/images/project1-a.png",
-            "assets/img/project1/images/project1-b.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-        ],
-        price: 150000, // Harga jual
-        originalPrice: 200000, // Harga awal
-        downloadUrl: "https://example.com/download/projectA.zip"
-    },
-    {
-        id: 3,
-        title: "Project C",
-        description: "Deskripsi singkat project C. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
-        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
-        images: [
-            "assets/img/project1/images/project1-a.png",
-            "assets/img/project1/images/project1-b.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-        ],
-        price: 150000, // Harga jual
-        originalPrice: 200000, // Harga awal
-        downloadUrl: "https://example.com/download/projectA.zip"
-    },
-    {
-        id: 4,
-        title: "Project D",
-        description: "Deskripsi singkat project D. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
-        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
-        images: [
-            "assets/img/project1/images/project1-a.png",
-            "assets/img/project1/images/project1-b.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-        ],
-        price: 150000, // Harga jual
-        originalPrice: 200000, // Harga awal
-        downloadUrl: "https://example.com/download/projectA.zip"
-    },
-    {
-        id: 5,
-        title: "Project E",
-        description: "Deskripsi singkat project E. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
-        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
-        images: [
-            "assets/img/project1/images/project1-a.png",
-            "assets/img/project1/images/project1-b.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-        ],
-        price: 150000, // Harga jual
-        originalPrice: 200000, // Harga awal
-        downloadUrl: "https://example.com/download/projectA.zip"
-    },
-    {
-        id: 6,
-        title: "Project F",
-        description: "Deskripsi singkat project F. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
-        thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
-        images: [
-            "assets/img/project1/images/project1-a.png",
-            "assets/img/project1/images/project1-b.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-            "assets/img/project1/images/project1-c.png",
-        ],
-        price: 150000, // Harga jual
-        originalPrice: 200000, // Harga awal
-        downloadUrl: "https://example.com/download/projectA.zip"
-    },
-
+    // {
+    //     id: 2,
+    //     title: "Project B",
+    //     description: "Deskripsi singkat project B. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ducimus temporibus beatae? Iste asperiores totam quo unde distinctio dignissimos cupiditate? Velit temporibus corporis placeat ipsam pariatur commodi, facere labore. Tempore, aspernatur! Nam sunt omnis laudantium qui voluptatem repellendus, porro atque.",
+    //     thumbnail: "assets/img/project1/thumbnail/project1-thumbnail.png",
+    //     images: [
+    //         "assets/img/project1/images/project1-a.png",
+    //         "assets/img/project1/images/project1-b.png",
+    //         "assets/img/project1/images/project1-c.png",
+    //         "assets/img/project1/images/project1-c.png",
+    //         "assets/img/project1/images/project1-c.png",
+    //         "assets/img/project1/images/project1-c.png",
+    //         "assets/img/project1/images/project1-c.png",
+    //         "assets/img/project1/images/project1-c.png",
+    //         "assets/img/project1/images/project1-c.png",
+    //     ],
+    //     price: 150000, // Harga jual
+    //     originalPrice: 200000, // Harga awal
+    //     downloadUrl: "https://example.com/download/projectA.zip"
+    // },
+    
 ];
 
 // Menampilkan project cards di halaman index
