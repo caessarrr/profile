@@ -2,7 +2,7 @@
 const projects = [
     {
         id: 1,
-        title: "TO-DO List Dengan Kategori",
+        title: "Laravel TO - DO List",
         description: "Ini adalah aplikasi web yang dibuat dengan Laravel versi 10.* dan Tailwind CSS, project ini cocok untuk yang ingin melatih pengalaman membuat CRUD dan Autentikasi di Laravel karena di project ini sudah dilengkapi dengan fitur CRUD untuk mengelola TO-DO List dan Kategorinya, dan juga sudah ada fitur Login Multi-user yang membuat project ini bisa memiliki banyak user dan dapat masuk ke dashboardnya masing masing.",
         thumbnail: "assets/img/laravel-todolist-dengan-kategori/thumbnail/laravel-todolist-dengan-kategori.png",
         images: [
@@ -15,6 +15,23 @@ const projects = [
         ],
         price: 29999, // Harga jual
         originalPrice: 799999, // Harga awal
+        downloadUrl: "https://example.com/download/projectA.zip"
+    },
+    {
+        id: 2,
+        title: "Laravel Bookmark Manager",
+        description: "Ini adalah aplikasi web yang dibuat dengan Laravel versi 10.* dan Tailwind CSS, project ini cocok untuk yang ingin melatih pengalaman membuat CRUD dan Autentikasi di Laravel karena di project ini sudah dilengkapi dengan fitur CRUD untuk mengelola Bookmark dan Kategorinya, dan juga sudah ada fitur Login Multi-user yang membuat project ini bisa memiliki banyak user dan dapat masuk ke dashboardnya masing masing.",
+        thumbnail: "assets/img/laravel-bookmark-manager/thumbnail/laravel-bookmark-manager.png",
+        images: [
+            "assets/img/laravel-bookmark-manager/images/image-1.png",
+            "assets/img/laravel-bookmark-manager/images/image-2.png",
+            "assets/img/laravel-bookmark-manager/images/image-3.png",
+            "assets/img/laravel-bookmark-manager/images/image-4.png",
+            "assets/img/laravel-bookmark-manager/images/image-5.png",
+            "assets/img/laravel-bookmark-manager/images/image-6.png",
+        ],
+        price: 34999, // Harga jual
+        originalPrice: 899999, // Harga awal
         downloadUrl: "https://example.com/download/projectA.zip"
     },
     // {
