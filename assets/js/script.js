@@ -34,6 +34,23 @@ const projects = [
         originalPrice: 899999, // Harga awal
         downloadUrl: "https://example.com/download/projectA.zip"
     },
+    {
+        id: 3,
+        title: "Laravel Contact Manager",
+        description: "Ini adalah aplikasi web yang dibuat dengan Laravel versi 10.* dan Tailwind CSS, project ini cocok untuk yang ingin melatih pengalaman membuat CRUD dan Autentikasi di Laravel karena di project ini sudah dilengkapi dengan fitur CRUD untuk mengelola Contact dan Kategorinya, dan juga sudah ada fitur Login Multi-user yang membuat project ini bisa memiliki banyak user dan dapat masuk ke dashboardnya masing masing.",
+        thumbnail: "assets/img/laravel-contact-manager/thumbnail/laravel-contact-manager.png",
+        images: [
+            "assets/img/laravel-contact-manager/images/image-1.png",
+            "assets/img/laravel-contact-manager/images/image-2.png",
+            "assets/img/laravel-contact-manager/images/image-3.png",
+            "assets/img/laravel-contact-manager/images/image-4.png",
+            "assets/img/laravel-contact-manager/images/image-5.png",
+            "assets/img/laravel-contact-manager/images/image-6.png",
+        ],
+        price: 32999, // Harga jual
+        originalPrice: 899999, // Harga awal
+        downloadUrl: "https://example.com/download/projectA.zip"
+    },
     // {
     //     id: 2,
     //     title: "Project B",
